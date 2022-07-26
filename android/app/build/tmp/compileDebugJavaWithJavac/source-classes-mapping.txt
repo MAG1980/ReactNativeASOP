@@ -1,0 +1,14 @@
+com/answers_for_asop/MainActivity.java
+ com.answers_for_asop.MainActivity
+com/answers_for_asop/BuildConfig.java
+ com.answers_for_asop.BuildConfig
+com/answers_for_asop/ReactNativeFlipper.java
+ com.answers_for_asop.ReactNativeFlipper
+ com.answers_for_asop.ReactNativeFlipper$1
+ com.answers_for_asop.ReactNativeFlipper$2
+ com.answers_for_asop.ReactNativeFlipper$2$1
+com/answers_for_asop/MainApplication.java
+ com.answers_for_asop.MainApplication
+ com.answers_for_asop.MainApplication$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList

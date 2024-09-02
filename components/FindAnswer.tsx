@@ -64,10 +64,10 @@ export const FindAnswer = ({navigation}) => {
 
                 return false;
             }
-            if (Number(text) > 20000) {
+            if (Number(text) > 50000) {
                 setErrors({
                     ...errors,
-                    length: 'В базе менее 20 000 вопросов'
+                    length: 'В базе менее 50 000 вопросов'
                 });
 
                 return false;
@@ -112,7 +112,7 @@ export const FindAnswer = ({navigation}) => {
                     {'length' in errors ?
                         <FormControl.ErrorMessage mb={5}>{errors.length}</FormControl.ErrorMessage> :
                         <FormControl.HelperText mb={5}>
-                            Количество вопросов в базе не превышает 20 000
+                            Количество вопросов в базе не превышает 50 000
                         </FormControl.HelperText>}
                     <Button isDisabled={isButtonDisabled} p={5} w={{
                         base: "70%",

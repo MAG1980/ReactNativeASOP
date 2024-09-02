@@ -1,4 +1,14 @@
 {
   "name": "Answers_for_ASOP",
-  "displayName": "Answers_for_ASOP"
+  "displayName": "Answers_for_ASOP",
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "ef73275b-42e8-4c4b-97da-c83a645830d9"
+      }
+    },
+    "android": {
+      "package": "com.mag1980.answers_for_asop"
+    }
+  }
 }
